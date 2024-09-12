@@ -1,0 +1,49 @@
+.hero-section {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.btn-resume {
+    background-color: #ffa500;
+    color: white;
+    margin-top: 20px;
+}
+
+.featured-works img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.social-icons a {
+    margin: 0 10px;
+}
+
+.avatar {
+    width:256px;
+    height:256px;
+    box-shadow: -10px 10px #EDF7FA;
+    border-radius: 50%;
+}
+
+h2 {
+    margin-bottom: 24px;
+}
+
+.recent-posts.bg-light {
+    background-color: #EDF7FA !important;
+}
+
+.wrapper-container {
+    display: flex;
+    flex-direction: row;
+}
