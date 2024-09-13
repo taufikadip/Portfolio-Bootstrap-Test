@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="calculator.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+
+    <!-- <input type="text" placeholder="input first number">
+
+    <input type="text" placeholder="input second number">
+
+    <br>
+
+    <button type="button"> + </button>
+    <button type="button"> - </button>
+    <button type="button"> * </button>
+    <button type="button"> / </button> -->
+    
+    <div class="calculator">
+        <h2>Simple Calculator</h2>
+        <input type="number" id="number1" placeholder="Enter first number">
+        <input type="number" id="number2" placeholder="Enter second number">
+        
+        <br>
+        
+        <!-- <button onclick="tambah()">+</button>
+        <button onclick="kurang()">-</button>
+        <button onclick="kali()">*</button>
+        <button onclick="bagi()">/</button> -->
+
+        <button type="button" onclick="calculate('+')">+</button>
+        <button type="button" onclick="calculate('-')">-</button>
+        <button type="button" onclick="calculate('*')">*</button>
+        <button type="button" onclick="calculate('/')">/</button>
+        
+        <br>
+
+        <p id="result"></p>
+
+    </div>
+</body>
+</html>
